@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+pylint = "*"
+django-debug-toolbar = "*"
+djoser = "*"
+djangorestframework-simplejwt = "*"
+pytest = "*"
+pytest-django = "*"
+locust = "*"
+django-redis = "*"
+djangorestframework = "*"
+redis = "*"
+whitenoise = "*"
+pillow = "*"
+
+[dev-packages]
+pytest-watch = "*"
+model-bakery = "*"
+locust = "*"
+django-silk = "*"
+
+[requires]
+python_version = "3.11"
